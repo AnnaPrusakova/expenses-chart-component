@@ -1,0 +1,17 @@
+.wrapper {
+  @apply flex justify-between items-end mt-[66px];
+}
+
+.chart {
+    @apply w-[50px] bg-soft_red rounded-[5px];
+}
+
+.chart.isBlue {
+  @apply bg-cyan;
+}
+
+.day {
+    @apply mt-[8px] text-medium_brown text-[15px] text-center;
+}
+
+

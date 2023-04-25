@@ -1,0 +1,31 @@
+.wrapper {
+    @apply bg-very_pale_orange rounded-[20px] w-[540px] h-[511px] mt-[24px] py-[32px] px-[40px];
+}
+
+.title {
+    @apply text-dark_brown font-bold text-[32px];
+}
+
+.divider {
+    @apply bg-cream w-[460px] h-[1px] my-[32px];
+}
+
+.infoWrapper {
+    @apply flex justify-between mt-[32px] mb-[40px] items-end;
+}
+
+.text {
+    @apply text-medium_brown;
+}
+
+.totalMonth {
+    @apply text-dark_brown font-bold text-[48px];
+}
+
+.lastMonth {
+    @apply text-right font-bold;
+}
+
+.last {
+    @apply mb-[10px];
+}
