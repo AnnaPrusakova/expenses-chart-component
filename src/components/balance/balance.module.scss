@@ -1,0 +1,11 @@
+.wrapper {
+  @apply bg-soft_red w-[540px] h-[125px] m-auto py-[25px] px-[35px] flex justify-between rounded-[20px];
+}
+
+.title {
+  @apply text-very_pale_orange;
+}
+
+.myBalance {
+  @apply text-very_pale_orange text-[32px] font-bold;
+}
