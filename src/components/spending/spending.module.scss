@@ -1,29 +1,30 @@
 .wrapper {
-    @apply bg-very_pale_orange rounded-[20px] w-[540px] h-[511px] mt-[24px] py-[32px] px-[40px];
+    @apply bg-very_pale_orange rounded-[20px] md:w-[540px] w-[343px] md:h-[511px]
+    h-[421px] mt-[24px] md:py-[32px]  py-[24px] md:px-[40px] px-[20px];
 }
 
 .title {
-    @apply text-dark_brown font-bold text-[32px];
+    @apply text-dark_brown font-bold md:text-[32px] text-[24px];
 }
 
 .divider {
-    @apply bg-cream w-[460px] h-[1px] my-[32px];
+    @apply bg-cream md:w-[460px] w-[303px] h-[1px] md:my-[32px] my-[24px];
 }
 
 .infoWrapper {
-    @apply flex justify-between mt-[32px] mb-[40px] items-end;
+    @apply flex justify-between md:mt-[32px] mt-[24px] md:mb-[40px] mb-[24px] items-end;
 }
 
 .text {
-    @apply text-medium_brown;
+    @apply text-medium_brown md:text-[18px] text-[15px];
 }
 
 .totalMonth {
-    @apply text-dark_brown font-bold text-[48px];
+    @apply text-dark_brown font-bold md:text-[48px] text-[30px];
 }
 
 .lastMonth {
-    @apply text-right font-bold;
+    @apply text-right font-bold md:text-[18px] text-[15px];
 }
 
 .last {

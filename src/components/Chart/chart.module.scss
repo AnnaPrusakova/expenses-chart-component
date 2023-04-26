@@ -1,5 +1,5 @@
 .wrapper {
-  @apply flex justify-between items-end mt-[66px];
+  @apply flex justify-between items-end md:mt-[66px] mt-[52px];
 }
 
 .itemWrapper {
@@ -11,7 +11,7 @@
 }
 
 .chart {
-    @apply w-[50px] bg-soft_red rounded-[5px];
+  @apply md:w-[50px] w-[33px] bg-soft_red rounded-[5px];
 }
 
 .chart.isBlue {
@@ -23,7 +23,7 @@
 }
 
 .day {
-    @apply mt-[8px] text-medium_brown text-[15px] text-center;
+    @apply mt-[8px] text-medium_brown md:text-[15px] text-[12px] text-center;
 }
 
 

@@ -22,8 +22,7 @@ module.exports = {
       very_pale_orange: 'hsl(33, 100%, 98%)'
     },
     screens: {
-      'sm': '375px',
-      'lg': '1440px',
+      'md': '600px',
     }
   },
   plugins: [],

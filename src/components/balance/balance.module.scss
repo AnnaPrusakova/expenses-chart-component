@@ -1,11 +1,12 @@
 .wrapper {
-  @apply bg-soft_red w-[540px] h-[125px] m-auto py-[25px] px-[35px] flex justify-between rounded-[20px];
+  @apply bg-soft_red md:w-[540px] w-[343px] md:h-[125px] h-[97px] m-auto md:py-[25px] md:px-[35px]
+  py-[20px] px-[20px] flex justify-between rounded-[20px];
 }
 
 .title {
-  @apply text-very_pale_orange;
+  @apply text-very_pale_orange text-[15px];
 }
 
 .myBalance {
-  @apply text-very_pale_orange text-[32px] font-bold;
+  @apply text-very_pale_orange md:text-[32px] text-[24px] font-bold;
 }
