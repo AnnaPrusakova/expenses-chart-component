@@ -2,12 +2,24 @@
   @apply flex justify-between items-end mt-[66px];
 }
 
+.itemWrapper {
+  @apply relative;
+}
+
+.hoverInfo {
+  @apply absolute w-[75px] h-[40px] -top-12 -right-3 bg-dark_brown text-very_pale_orange rounded-[5px] flex justify-center items-center transition-opacity duration-300;
+}
+
 .chart {
     @apply w-[50px] bg-soft_red rounded-[5px];
 }
 
 .chart.isBlue {
   @apply bg-cyan;
+}
+
+.chart:hover {
+  @apply cursor-pointer opacity-50;
 }
 
 .day {
